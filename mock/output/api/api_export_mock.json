@@ -1,0 +1,1618 @@
+{
+  "metadata": {
+    "version": "",
+    "generatedAt": "",
+    "datasetName": "",
+    "totalUsers": 0,
+    "totalArtists": 0,
+    "totalTracks": 0,
+    "totalPlaylists": 0
+  },
+  "users": [
+    {
+      "id": "9299e9c8-2af1-4160-8e83-bde4d746c915",
+      "username": "verile",
+      "email": "verile@example.com",
+      "password": "$2a$10$IuJvc7sW1V5kuiB5rFGayuZygbZAHNG2VgwSzIpqoT4WHMJkJh64e",
+      "plainPassword": "netadmin",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": true,
+      "createdAt": "2026-05-08T04:57:32Z",
+      "updatedAt": "2026-05-08T04:57:32Z"
+    },
+    {
+      "id": "96f057c2-ec8e-4329-a5aa-a59954abec5d",
+      "username": "briney",
+      "email": "briney@example.com",
+      "password": "$2a$10$wxFNwJTFBJTKOdw1BDJoHuNhoA1XqIGlRhIebH8qLJGXl0FZN1SP6",
+      "plainPassword": "Helpdesk",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:32Z",
+      "updatedAt": "2026-05-08T04:57:32Z"
+    },
+    {
+      "id": "742088f8-efe5-41a4-938b-afa57d50758f",
+      "username": "marlane",
+      "email": "marlane@example.com",
+      "password": "$2a$10$Oz84LZHTglAQrSmEia6DauOFsmZ3OvvCfjPUAXc/z3bOzKzfu.E4S",
+      "plainPassword": "author",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:32Z",
+      "updatedAt": "2026-05-08T04:57:32Z"
+    },
+    {
+      "id": "c7214ad7-e35e-405f-a257-6f418510e91a",
+      "username": "evran",
+      "email": "evran@example.com",
+      "password": "$2a$10$eRLPcKlZgGpZTdrIqaTzcOg6K8BZmNZGNdbdPW6lbW2vKmgu0Adye",
+      "plainPassword": "DIGITAL",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:32Z",
+      "updatedAt": "2026-05-08T04:57:32Z"
+    },
+    {
+      "id": "7c10b297-0102-4c06-8467-d2cf942fc35f",
+      "username": "witte",
+      "email": "witte@example.com",
+      "password": "$2a$10$UvN8SpL0jzlDXg6hpu6tfe9bbt3zhpNytojePmSmnceVMAS1WNqVu",
+      "plainPassword": "dvst10n",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "12d2c2c9-326e-4e21-ab3c-84cd5358eed4",
+      "username": "catlin",
+      "email": "catlin@example.com",
+      "password": "$2a$10$mceQF9Z.mRGg8XiYOHYdZe9El6vea6pFtjWB1sy1EPVJ7soxk9MS2",
+      "plainPassword": "nortel",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "9ec06803-1742-4eee-8744-f700915e956c",
+      "username": "frayda",
+      "email": "frayda@example.com",
+      "password": "$2a$10$y0lI6PEC2nWwI2lZDy1Bh.wik2QiSrZAQ7NZEFTZfnszP2eJRr4ja",
+      "plainPassword": "DEFAULT",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "98fc91eb-e23a-402a-be37-f61c662e363b",
+      "username": "elisabet",
+      "email": "elisabet@example.com",
+      "password": "$2a$10$ADnYkfQnY62YbQFlGJNWKelbOz3eTJwVUv5qRugp2pL8yqd5vW2B.",
+      "plainPassword": "06071992",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "778c0ea7-746a-4103-a856-aa95bf068dad",
+      "username": "bryson",
+      "email": "bryson@example.com",
+      "password": "$2a$10$V4X3Y.HRmnZZUbS5G.tEqOozpzfm2YJPV5juuWtCbUd0vDH.i.voG",
+      "plainPassword": "lucenttech1",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "015635f0-06db-4fe4-bc5c-e20a09c64636",
+      "username": "meena",
+      "email": "meena@example.com",
+      "password": "$2a$10$REm1TPoMZlx95U4C0n/lxecO3BYNIOKiKBgWtGag.GZcKnACNoIpy",
+      "plainPassword": "123 (or blank)",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "201c6387-000b-4e3d-9ec8-1656d9217de9",
+      "username": "emlynn",
+      "email": "emlynn@example.com",
+      "password": "$2a$10$4a0FRYxfX.xPPqAzDXtR6O4VrbVjL3ck1ymidF2W/vF73VB6OQPce",
+      "plainPassword": "GUESTGUE",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": true,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "96c9c617-d6c9-4158-bbcc-f28733ce253e",
+      "username": "verna",
+      "email": "verna@example.com",
+      "password": "$2a$10$8NomG/C5zvk37IcdRLrpFeqHHTL1m3HupsbLV.Rt935dhoVtNY/Tu",
+      "plainPassword": "OPERATOR",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "05edd74c-7b02-4dd4-be5c-2647fe44da4e",
+      "username": "kathe",
+      "email": "kathe@example.com",
+      "password": "$2a$10$mbnblgSjfgDjiadkhytaZeOoYbJxqmuUL4uctjbqIqosbulB3drQa",
+      "plainPassword": "ilom-admin",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:33Z",
+      "updatedAt": "2026-05-08T04:57:33Z"
+    },
+    {
+      "id": "a70ef863-1311-4445-8fbb-66e750c85e12",
+      "username": "bonita",
+      "email": "bonita@example.com",
+      "password": "$2a$10$aO1uvA4SW6oI9miLP4HSf.7mB.kQhBtm01uoF7AByjwVsV4/wP6UW",
+      "plainPassword": "1322222",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "d00de51c-0da0-4a90-96e0-ffbf445ede5e",
+      "username": "jeydon",
+      "email": "jeydon@example.com",
+      "password": "$2a$10$QT1xqN6uLTVpppvaBfB.YuOz7RqrWh8C8KKT6BNOXsBM9fYC30hPK",
+      "plainPassword": "isolation",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "41d2897e-6cb6-4685-aea5-553bc5f1f5cb",
+      "username": "cocos",
+      "email": "cocos@example.com",
+      "password": "$2a$10$SwS94Wp5ru1oAFjCWqSzh.jKtB4nC5MCrRgCzBXJouyU/iN.h3pM6",
+      "plainPassword": "clickshare",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "a7468a08-5242-442f-82ce-5614b8ede820",
+      "username": "dilan",
+      "email": "dilan@example.com",
+      "password": "$2a$10$G5bTXvQtZ8KEHkXgNcJAg.gGdUbDn4oCeS75oGuOsAUwuRHUukXIy",
+      "plainPassword": "ucenik",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "b54d25c2-9dc2-429a-b0f5-1edb8318359e",
+      "username": "lars",
+      "email": "lars@example.com",
+      "password": "$2a$10$4KuHK.y9gbi1nOrCPTzfoOkTPk2FmLzzAiu/hzvalI8.NzgT9R6vC",
+      "plainPassword": "REGO",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "cfe2fe1b-34f6-4fb5-880c-cc59d210fd0b",
+      "username": "kirby",
+      "email": "kirby@example.com",
+      "password": "$2a$10$SED/4FITnIOoZSqzgedRq.shqzXcNMz6cr6BcuG50R7iTTs/gzNY2",
+      "plainPassword": "hs7mwxkk",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "8ec5c186-7ba6-49e2-a178-f1495d859461",
+      "username": "severin",
+      "email": "severin@example.com",
+      "password": "$2a$10$uZojedCCjLzN7mRPkWlIg.ZYdoA5trW6A5RfmQso0tUVGjNEVlcDy",
+      "plainPassword": "aparker",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "0c168133-c84b-4ee5-b822-28ab16346a8d",
+      "username": "elvert",
+      "email": "elvert@example.com",
+      "password": "$2a$10$Czh9LESNfevIh9ZsGOcCKOtwMGsqktJongXh/tfGVSHGPHoGeQtZO",
+      "plainPassword": "7061992",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": true,
+      "createdAt": "2026-05-08T04:57:34Z",
+      "updatedAt": "2026-05-08T04:57:34Z"
+    },
+    {
+      "id": "5d928d7d-a121-4bd3-bb13-843673379f72",
+      "username": "clarence",
+      "email": "clarence@example.com",
+      "password": "$2a$10$2HLG7z2AWmTolH8hCGl1Le9EGPcfloO4yWVzlg/RAKcAdj5I2eI/i",
+      "plainPassword": "123454",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "8659de37-de88-4259-bb7b-1cffbd31e75b",
+      "username": "vicki",
+      "email": "vicki@example.com",
+      "password": "$2a$10$SgWkuYttPSY8L3zTUSgLOeCaaHX6MZTw9S65rWU7APrIx0y5y5T9.",
+      "plainPassword": "NetSeq",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "88e69a78-588e-4b68-9707-7a8603855422",
+      "username": "costanza",
+      "email": "costanza@example.com",
+      "password": "$2a$10$XnCfz3vShhJ4tlAcRCkan.tnxdRYDoeaP.fCsv9zSnn89NSX5MqaK",
+      "plainPassword": "telco",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "fb2fbdf2-87c7-4227-9a7b-1e1238f800da",
+      "username": "mehboob",
+      "email": "mehboob@example.com",
+      "password": "$2a$10$0kAzkYqHOUOAobj3KMtSmODvacT6VuUMPyy9w2CeVTJdW9nRH7ore",
+      "plainPassword": "checkfs",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "7d926bee-11a0-4894-ae94-7d107cb83783",
+      "username": "tetsuya",
+      "email": "tetsuya@example.com",
+      "password": "$2a$10$DevG3M8SiTKvKVuP0jzKtOfsMZhyT9aGV3m1pisZDS4xgajoqPZyC",
+      "plainPassword": "GPLD",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "a128df7c-9a69-48f0-b082-474f5fca3b97",
+      "username": "colline",
+      "email": "colline@example.com",
+      "password": "$2a$10$OjzYzE3GuZODmpB36ct2YuRbaWjhtCz43cYZsjZcMB.m85kL5TFdK",
+      "plainPassword": "acer",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "6716cf93-5817-49cd-95af-d15f9a430d2c",
+      "username": "breanna",
+      "email": "breanna@example.com",
+      "password": "$2a$10$w4BRmRcgpGMlp4DtjOxTMeybReQcyyBFoyYqs7gozKAcdMF7ZGNoy",
+      "plainPassword": "4tugboat",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "a2d5aba2-93d7-4b15-ba49-67f8750d2ab4",
+      "username": "chin",
+      "email": "chin@example.com",
+      "password": "$2a$10$TNnjgQkTXTLg2XXn/sTyUeXCMdcrTb2vx9va5PGlURJApvLIxqAMC",
+      "plainPassword": "SnuFG5",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "176907b0-c151-45b3-9134-b4284ce853a4",
+      "username": "viole",
+      "email": "viole@example.com",
+      "password": "$2a$10$0CLOvNpdCj4n9ssqOIpW2eGOBzWbt/nKigGEa9gzJtyk1BCpcTlmm",
+      "plainPassword": "OSP22",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "88de329c-7057-4f27-a390-a4430364500e",
+      "username": "romano",
+      "email": "romano@example.com",
+      "password": "$2a$10$OpCoHmJ8ZSL2cDbEyGA1xODFeTVWXkcGfBDkt3m8GhCLxbteW3m0G",
+      "plainPassword": "WEBREAD",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": true,
+      "createdAt": "2026-05-08T04:57:35Z",
+      "updatedAt": "2026-05-08T04:57:35Z"
+    },
+    {
+      "id": "539faf35-d80f-4b09-9f0d-4c88e7e01766",
+      "username": "christina",
+      "email": "christina@example.com",
+      "password": "$2a$10$yiyuocSvD.7WFZOmtj5m0edS2BrOvNjWXGvyG5s.VbwizeJkIlw6q",
+      "plainPassword": "456",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "f2aaf6cf-4f50-4981-8d89-906c584104c7",
+      "username": "joice",
+      "email": "joice@example.com",
+      "password": "$2a$10$QK6LrZt/4UzCXUvncrtC9ukiwRZU6PQJN5oVJBttnD54j0YxiQWqi",
+      "plainPassword": "mountsys",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "00fa36ef-b19b-45fb-8a18-5f2541afd748",
+      "username": "pearl",
+      "email": "pearl@example.com",
+      "password": "$2a$10$lI4wVejSzv7eloHxaBQw0OcfYnzoP7cye4aIFZmcYZ3.YMIAtyu3W",
+      "plainPassword": "col1ma",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "094e0fc5-b919-4668-ae3b-353c799b0bd8",
+      "username": "wray",
+      "email": "wray@example.com",
+      "password": "$2a$10$BWuwT60UJtVjq3b3mcLTSuzD0VmOx3gt3RuuiUfen/hm3xFqsdEUK",
+      "plainPassword": "singh",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "7aaba2b6-84a3-4c00-abd5-b09004482aae",
+      "username": "sunshine",
+      "email": "sunshine@example.com",
+      "password": "$2a$10$JcYMKTXpOCwWxQfS0sCQSeGnhrqXswF3NX9AXh.BvEKQpF7Kn3V5m",
+      "plainPassword": "shiva",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "f136b1fe-07bb-44b2-a716-effbfa76ce48",
+      "username": "kip",
+      "email": "kip@example.com",
+      "password": "$2a$10$dVqMvizNQ9DQEjGf7j79GeeCo.oH1ujacv0mxyTefFq106iPSviqG",
+      "plainPassword": "SECURITY",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "c5f29880-3944-4122-af09-3b9ce81701b4",
+      "username": "robbyn",
+      "email": "robbyn@example.com",
+      "password": "$2a$10$jM6poGPsuJ2Fxg2/CReUCubuXC6bFMPrAGCYdvuhPnCy.ypSomrga",
+      "plainPassword": "viewuser1",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:36Z",
+      "updatedAt": "2026-05-08T04:57:36Z"
+    },
+    {
+      "id": "e239b554-68fd-4db2-94af-5b9b2f1b656c",
+      "username": "dpnis",
+      "email": "dpnis@example.com",
+      "password": "$2a$10$AfWs.cbugPaELh9ofYNkZepVlU/uOPDvu6iS/gVMlzr8vjh16r/L6",
+      "plainPassword": "PORTAL30_PUBLIC",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "3de9ddae-8d5b-43c0-b76f-7e1ddfa8d510",
+      "username": "arshad",
+      "email": "arshad@example.com",
+      "password": "$2a$10$3jDrk/Z51QCjnxfDfWuUeeLoE6kRO..8EZ8QzYy9hAy..7E37riEi",
+      "plainPassword": "tiara",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "a304ce73-1e3c-4c4f-9c66-11afd574c729",
+      "username": "trina",
+      "email": "trina@example.com",
+      "password": "$2a$10$7UhMoDIKft1l7IC0PspCcutO5dn.PjIi6bGiH8qkAbUpGXpnpvZk.",
+      "plainPassword": "bciimpw",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": true,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "fc1f93b9-323f-4373-ac15-04bc8d0d9e94",
+      "username": "stirling",
+      "email": "stirling@example.com",
+      "password": "$2a$10$4n/RxkDlYIbuzbvDrtNPo.eAsRGKiLkVDKT95OyGh6wqiNoxmJAA.",
+      "plainPassword": "NEWS",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "c7027174-aaba-4e5c-b43a-fb9ce665b0db",
+      "username": "nicolea",
+      "email": "nicolea@example.com",
+      "password": "$2a$10$MLQ6ejRp2.yFR4Po1YgtieftIEeQp5r4KzUQzxAzp9njqfOQIXIoe",
+      "plainPassword": "award",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "78b8539d-b24c-4814-a163-3c627d8d6e9d",
+      "username": "erhard",
+      "email": "erhard@example.com",
+      "password": "$2a$10$zifS7O1KaXn7GfA/1AZ/i.W8UbG4GjSSCUFOxktICjyaUBGy8k3Di",
+      "plainPassword": "ISPMODE",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "cdced6bc-07ca-4a17-91ef-6589f653c71e",
+      "username": "eileen",
+      "email": "eileen@example.com",
+      "password": "$2a$10$yO40nFGTlea.wlwD7OX1C.NRMwXzgWDBQMHij2oq8Ahoycr/ub4PG",
+      "plainPassword": "highspeed",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "bf35ed20-7ab2-419c-af1e-c37d9dd2c6b5",
+      "username": "rhea",
+      "email": "rhea@example.com",
+      "password": "$2a$10$f38cre/oTSss0PKEzJAmBuRTbdAriRi3G2vA7xAVnK3WmTr6h1hWy",
+      "plainPassword": "x6zynd56",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "0851e258-92d9-4a15-8c52-bc1ed65bfe16",
+      "username": "astoria",
+      "email": "astoria@example.com",
+      "password": "$2a$10$LiYbHKxCdMgNJvb63cxqreQfN.5NKexc/EjdnR6cfS7l.UTujUF5i",
+      "plainPassword": "mysweex",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:37Z",
+      "updatedAt": "2026-05-08T04:57:37Z"
+    },
+    {
+      "id": "0a8ac6ad-ba4a-4f52-a2e5-576b804e879d",
+      "username": "valencia",
+      "email": "valencia@example.com",
+      "password": "$2a$10$0udhdXLE81Lq8sDHv3F2mu1xah1.T9AoU4VlNbpJvTflpb2aurNkG",
+      "plainPassword": "bpel",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:38Z",
+      "updatedAt": "2026-05-08T04:57:38Z"
+    },
+    {
+      "id": "48ec3828-bfd1-4454-8e10-fb2a57efc4e2",
+      "username": "muhammad",
+      "email": "muhammad@example.com",
+      "password": "$2a$10$U.FrsvwrNHu5SBjWEQUDL.jV4KDPBgLttUVDynNLfDqgrEURqIV5q",
+      "plainPassword": "ODM",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:38Z",
+      "updatedAt": "2026-05-08T04:57:38Z"
+    },
+    {
+      "id": "f0e7d224-6826-4e60-8a19-19acd55e2fb9",
+      "username": "candice",
+      "email": "candice@example.com",
+      "password": "$2a$10$duQIoKLTKS7/L3BDMSHp.uo/8t0tfsG9K73F/10Fu/F8TbPxPntAG",
+      "plainPassword": "NULL",
+      "role": "listener",
+      "provider": "local",
+      "isVerified": true,
+      "isPremium": false,
+      "createdAt": "2026-05-08T04:57:38Z",
+      "updatedAt": "2026-05-08T04:57:38Z"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "9299e9c8-2af1-4160-8e83-bde4d746c915",
+      "name": "verile Profile",
+      "bio": "This is the profile of verile"
+    },
+    {
+      "userId": "96f057c2-ec8e-4329-a5aa-a59954abec5d",
+      "name": "briney Profile",
+      "bio": "This is the profile of briney"
+    },
+    {
+      "userId": "742088f8-efe5-41a4-938b-afa57d50758f",
+      "name": "marlane Profile",
+      "bio": "This is the profile of marlane"
+    },
+    {
+      "userId": "c7214ad7-e35e-405f-a257-6f418510e91a",
+      "name": "evran Profile",
+      "bio": "This is the profile of evran"
+    },
+    {
+      "userId": "7c10b297-0102-4c06-8467-d2cf942fc35f",
+      "name": "witte Profile",
+      "bio": "This is the profile of witte"
+    },
+    {
+      "userId": "12d2c2c9-326e-4e21-ab3c-84cd5358eed4",
+      "name": "catlin Profile",
+      "bio": "This is the profile of catlin"
+    },
+    {
+      "userId": "9ec06803-1742-4eee-8744-f700915e956c",
+      "name": "frayda Profile",
+      "bio": "This is the profile of frayda"
+    },
+    {
+      "userId": "98fc91eb-e23a-402a-be37-f61c662e363b",
+      "name": "elisabet Profile",
+      "bio": "This is the profile of elisabet"
+    },
+    {
+      "userId": "778c0ea7-746a-4103-a856-aa95bf068dad",
+      "name": "bryson Profile",
+      "bio": "This is the profile of bryson"
+    },
+    {
+      "userId": "015635f0-06db-4fe4-bc5c-e20a09c64636",
+      "name": "meena Profile",
+      "bio": "This is the profile of meena"
+    },
+    {
+      "userId": "201c6387-000b-4e3d-9ec8-1656d9217de9",
+      "name": "emlynn Profile",
+      "bio": "This is the profile of emlynn"
+    },
+    {
+      "userId": "96c9c617-d6c9-4158-bbcc-f28733ce253e",
+      "name": "verna Profile",
+      "bio": "This is the profile of verna"
+    },
+    {
+      "userId": "05edd74c-7b02-4dd4-be5c-2647fe44da4e",
+      "name": "kathe Profile",
+      "bio": "This is the profile of kathe"
+    },
+    {
+      "userId": "a70ef863-1311-4445-8fbb-66e750c85e12",
+      "name": "bonita Profile",
+      "bio": "This is the profile of bonita"
+    },
+    {
+      "userId": "d00de51c-0da0-4a90-96e0-ffbf445ede5e",
+      "name": "jeydon Profile",
+      "bio": "This is the profile of jeydon"
+    },
+    {
+      "userId": "41d2897e-6cb6-4685-aea5-553bc5f1f5cb",
+      "name": "cocos Profile",
+      "bio": "This is the profile of cocos"
+    },
+    {
+      "userId": "a7468a08-5242-442f-82ce-5614b8ede820",
+      "name": "dilan Profile",
+      "bio": "This is the profile of dilan"
+    },
+    {
+      "userId": "b54d25c2-9dc2-429a-b0f5-1edb8318359e",
+      "name": "lars Profile",
+      "bio": "This is the profile of lars"
+    },
+    {
+      "userId": "cfe2fe1b-34f6-4fb5-880c-cc59d210fd0b",
+      "name": "kirby Profile",
+      "bio": "This is the profile of kirby"
+    },
+    {
+      "userId": "8ec5c186-7ba6-49e2-a178-f1495d859461",
+      "name": "severin Profile",
+      "bio": "This is the profile of severin"
+    },
+    {
+      "userId": "0c168133-c84b-4ee5-b822-28ab16346a8d",
+      "name": "elvert Profile",
+      "bio": "This is the profile of elvert"
+    },
+    {
+      "userId": "5d928d7d-a121-4bd3-bb13-843673379f72",
+      "name": "clarence Profile",
+      "bio": "This is the profile of clarence"
+    },
+    {
+      "userId": "8659de37-de88-4259-bb7b-1cffbd31e75b",
+      "name": "vicki Profile",
+      "bio": "This is the profile of vicki"
+    },
+    {
+      "userId": "88e69a78-588e-4b68-9707-7a8603855422",
+      "name": "costanza Profile",
+      "bio": "This is the profile of costanza"
+    },
+    {
+      "userId": "fb2fbdf2-87c7-4227-9a7b-1e1238f800da",
+      "name": "mehboob Profile",
+      "bio": "This is the profile of mehboob"
+    },
+    {
+      "userId": "7d926bee-11a0-4894-ae94-7d107cb83783",
+      "name": "tetsuya Profile",
+      "bio": "This is the profile of tetsuya"
+    },
+    {
+      "userId": "a128df7c-9a69-48f0-b082-474f5fca3b97",
+      "name": "colline Profile",
+      "bio": "This is the profile of colline"
+    },
+    {
+      "userId": "6716cf93-5817-49cd-95af-d15f9a430d2c",
+      "name": "breanna Profile",
+      "bio": "This is the profile of breanna"
+    },
+    {
+      "userId": "a2d5aba2-93d7-4b15-ba49-67f8750d2ab4",
+      "name": "chin Profile",
+      "bio": "This is the profile of chin"
+    },
+    {
+      "userId": "176907b0-c151-45b3-9134-b4284ce853a4",
+      "name": "viole Profile",
+      "bio": "This is the profile of viole"
+    },
+    {
+      "userId": "88de329c-7057-4f27-a390-a4430364500e",
+      "name": "romano Profile",
+      "bio": "This is the profile of romano"
+    },
+    {
+      "userId": "539faf35-d80f-4b09-9f0d-4c88e7e01766",
+      "name": "christina Profile",
+      "bio": "This is the profile of christina"
+    },
+    {
+      "userId": "f2aaf6cf-4f50-4981-8d89-906c584104c7",
+      "name": "joice Profile",
+      "bio": "This is the profile of joice"
+    },
+    {
+      "userId": "00fa36ef-b19b-45fb-8a18-5f2541afd748",
+      "name": "pearl Profile",
+      "bio": "This is the profile of pearl"
+    },
+    {
+      "userId": "094e0fc5-b919-4668-ae3b-353c799b0bd8",
+      "name": "wray Profile",
+      "bio": "This is the profile of wray"
+    },
+    {
+      "userId": "7aaba2b6-84a3-4c00-abd5-b09004482aae",
+      "name": "sunshine Profile",
+      "bio": "This is the profile of sunshine"
+    },
+    {
+      "userId": "f136b1fe-07bb-44b2-a716-effbfa76ce48",
+      "name": "kip Profile",
+      "bio": "This is the profile of kip"
+    },
+    {
+      "userId": "c5f29880-3944-4122-af09-3b9ce81701b4",
+      "name": "robbyn Profile",
+      "bio": "This is the profile of robbyn"
+    },
+    {
+      "userId": "e239b554-68fd-4db2-94af-5b9b2f1b656c",
+      "name": "dpnis Profile",
+      "bio": "This is the profile of dpnis"
+    },
+    {
+      "userId": "3de9ddae-8d5b-43c0-b76f-7e1ddfa8d510",
+      "name": "arshad Profile",
+      "bio": "This is the profile of arshad"
+    },
+    {
+      "userId": "a304ce73-1e3c-4c4f-9c66-11afd574c729",
+      "name": "trina Profile",
+      "bio": "This is the profile of trina"
+    },
+    {
+      "userId": "fc1f93b9-323f-4373-ac15-04bc8d0d9e94",
+      "name": "stirling Profile",
+      "bio": "This is the profile of stirling"
+    },
+    {
+      "userId": "c7027174-aaba-4e5c-b43a-fb9ce665b0db",
+      "name": "nicolea Profile",
+      "bio": "This is the profile of nicolea"
+    },
+    {
+      "userId": "78b8539d-b24c-4814-a163-3c627d8d6e9d",
+      "name": "erhard Profile",
+      "bio": "This is the profile of erhard"
+    },
+    {
+      "userId": "cdced6bc-07ca-4a17-91ef-6589f653c71e",
+      "name": "eileen Profile",
+      "bio": "This is the profile of eileen"
+    },
+    {
+      "userId": "bf35ed20-7ab2-419c-af1e-c37d9dd2c6b5",
+      "name": "rhea Profile",
+      "bio": "This is the profile of rhea"
+    },
+    {
+      "userId": "0851e258-92d9-4a15-8c52-bc1ed65bfe16",
+      "name": "astoria Profile",
+      "bio": "This is the profile of astoria"
+    },
+    {
+      "userId": "0a8ac6ad-ba4a-4f52-a2e5-576b804e879d",
+      "name": "valencia Profile",
+      "bio": "This is the profile of valencia"
+    },
+    {
+      "userId": "48ec3828-bfd1-4454-8e10-fb2a57efc4e2",
+      "name": "muhammad Profile",
+      "bio": "This is the profile of muhammad"
+    },
+    {
+      "userId": "f0e7d224-6826-4e60-8a19-19acd55e2fb9",
+      "name": "candice Profile",
+      "bio": "This is the profile of candice"
+    }
+  ],
+  "artists": [
+    {
+      "id": "146a2a38-6d86-4f6c-a762-3fb15e905a08",
+      "userId": "9299e9c8-2af1-4160-8e83-bde4d746c915",
+      "name": " Tony Ocasio ",
+      "isVerified": true,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "8be476da-f8de-47f8-a5b9-deac2854b7f4",
+      "userId": "96f057c2-ec8e-4329-a5aa-a59954abec5d",
+      "name": " Yutaka Yokokura ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "f989f176-a8dc-48f0-8557-e39fda271673",
+      "userId": "742088f8-efe5-41a4-938b-afa57d50758f",
+      "name": " Bonnie Sheridan ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "affd6fdf-6e9c-4a2f-b657-86bf4fb0d5e1",
+      "userId": "c7214ad7-e35e-405f-a257-6f418510e91a",
+      "name": " Avion Dre ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "a08a35a3-6302-48ef-9ee2-e777976694ee",
+      "userId": "7c10b297-0102-4c06-8467-d2cf942fc35f",
+      "name": " Steps (Pop) ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "c9dab684-553b-494d-acae-c2865a2f4fd0",
+      "userId": "12d2c2c9-326e-4e21-ab3c-84cd5358eed4",
+      "name": " Mayden HollyWood ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "f1e18600-6d76-4403-b4a8-0d67c4923902",
+      "userId": "9ec06803-1742-4eee-8744-f700915e956c",
+      "name": " We Are The In Crowd ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "5348446d-0e9d-47b6-9bac-d2eca382faa0",
+      "userId": "98fc91eb-e23a-402a-be37-f61c662e363b",
+      "name": " April Boy Regino ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "1ac349c8-19a0-438b-80ea-e640caa28e77",
+      "userId": "778c0ea7-746a-4103-a856-aa95bf068dad",
+      "name": " Dan Hill ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    },
+    {
+      "id": "0176a99a-0c79-4204-a69c-2872338fe6b9",
+      "userId": "015635f0-06db-4fe4-bc5c-e20a09c64636",
+      "name": " Hundred Waters ",
+      "isVerified": false,
+      "createdAt": "2026-05-08T04:57:58Z",
+      "updatedAt": "2026-05-08T04:57:58Z"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "c5daea55-35c4-440b-bbec-a48d43dd55df",
+      "artistId": "146a2a38-6d86-4f6c-a762-3fb15e905a08",
+      "title": "I \u003c3 U SO",
+      "audioUrl": "assets\\songs\\BÍCH PHƯƠNG - Nâng Chén Tiêu Sầu (Official MV).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-7847782_1280.jpg",
+      "trackNumber": 1,
+      "duration": 180,
+      "genre": "Pop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "52ea49b7-11e4-4a06-9468-5e18a840fd3b",
+      "artistId": "8be476da-f8de-47f8-a5b9-deac2854b7f4",
+      "title": "Kryptonite",
+      "audioUrl": "assets\\songs\\Bầu Trời Mới - Da LAB  ft. Minh Tốc \u0026 Lam (Official MV).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-7920003_1280.jpg",
+      "trackNumber": 2,
+      "duration": 185,
+      "genre": "Rock",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "84a5ca5d-c75e-4e3b-b57c-1c72a0eb33ee",
+      "artistId": "f989f176-a8dc-48f0-8557-e39fda271673",
+      "title": "Solomon: Arrival of the Queen of Sheba",
+      "audioUrl": "assets\\songs\\CHẲNG HỢP NHAU ĐÂU  OFFICIAL MV  LÊ BẢO BÌNH ft THANH HƯNG.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8213421_1280.png",
+      "trackNumber": 3,
+      "duration": 190,
+      "genre": "Hip-Hop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "be154f44-ebf7-46b1-896c-65bfe27752bd",
+      "artistId": "affd6fdf-6e9c-4a2f-b657-86bf4fb0d5e1",
+      "title": "La Cantina",
+      "audioUrl": "assets\\songs\\Dương Domic - Mất Kết Nối  EP 'Dữ Liệu Quý'.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8428257_1280.png",
+      "trackNumber": 4,
+      "duration": 195,
+      "genre": "Jazz",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "c3c7220d-f24c-49a0-bcf4-80013b1cab46",
+      "artistId": "a08a35a3-6302-48ef-9ee2-e777976694ee",
+      "title": "Break Your Heart (Wideboys Club)",
+      "audioUrl": "assets\\songs\\ERIK - 'Dù cho tận thế (vẫn yêu em)'  Official MV  Valentine 2025.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8567846_1280.png",
+      "trackNumber": 5,
+      "duration": 200,
+      "genre": "Classical",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "b5e07cb7-65f4-449d-bd1d-dcf7483a45eb",
+      "artistId": "c9dab684-553b-494d-acae-c2865a2f4fd0",
+      "title": "Rayito de Luna",
+      "audioUrl": "assets\\songs\\JACK - J97  THIÊN LÝ ƠI  Official Music Video.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8592837_1280.png",
+      "trackNumber": 6,
+      "duration": 205,
+      "genre": "Electronic",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "2a93b552-8ba2-4eed-8270-29e8b59088ff",
+      "artistId": "f1e18600-6d76-4403-b4a8-0d67c4923902",
+      "title": "Ballad Of Easy Rider",
+      "audioUrl": "assets\\songs\\MONO - 'Chăm Hoa' (Official Music Video).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8594842_1280.png",
+      "trackNumber": 7,
+      "duration": 210,
+      "genre": "Country",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "e9e0b9e1-1a41-423c-842d-2ee31e2f6107",
+      "artistId": "5348446d-0e9d-47b6-9bac-d2eca382faa0",
+      "title": "Hate It Here",
+      "audioUrl": "assets\\songs\\MONO - 'Ôm Em Thật Lâu' (Official Music Video).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8594849_1280.png",
+      "trackNumber": 8,
+      "duration": 215,
+      "genre": "Reggae",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "3502e1d8-d07b-477a-8408-0e39041459e4",
+      "artistId": "1ac349c8-19a0-438b-80ea-e640caa28e77",
+      "title": "Namaste",
+      "audioUrl": "assets\\songs\\MỘNG YU - AMEE x MCK  Official Music Video (from MỘNGMEE album).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8671101_1280.png",
+      "trackNumber": 9,
+      "duration": 220,
+      "genre": "Pop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "eb7f6111-5a41-4de0-9b25-6eccf0e5d80f",
+      "artistId": "0176a99a-0c79-4204-a69c-2872338fe6b9",
+      "title": "This Is Not Surreal",
+      "audioUrl": "assets\\songs\\ORANGE - 'CHÚNG TA CÒN Ở ĐÓ KHÔNG_'  Official Visualizer  OST BỘ TỨ BÁO THỦ (Prod. SIVEN).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8705657_1280.png",
+      "trackNumber": 10,
+      "duration": 225,
+      "genre": "Rock",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "6bd9ea07-20e3-4698-8d0a-27d498b90aed",
+      "artistId": "146a2a38-6d86-4f6c-a762-3fb15e905a08",
+      "title": "I Can't Give You Anything But Love",
+      "audioUrl": "assets\\songs\\Obito - tell the kids i love them ft. Shiki (Official MV).mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8865407_1280.jpg",
+      "trackNumber": 11,
+      "duration": 230,
+      "genre": "Hip-Hop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "b60a34bc-2e72-40e8-8200-fb3f39d7995a",
+      "artistId": "8be476da-f8de-47f8-a5b9-deac2854b7f4",
+      "title": "Best Of Me (New Version)",
+      "audioUrl": "assets\\songs\\Orange - ' Gặp Lại Năm Ta 60 ' OFFICIAL VISUALIZER.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-8967765_1280.png",
+      "trackNumber": 12,
+      "duration": 235,
+      "genre": "Jazz",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "a94a1acd-9249-4eb7-af10-427487af9595",
+      "artistId": "f989f176-a8dc-48f0-8557-e39fda271673",
+      "title": "Fresher Than Ever",
+      "audioUrl": "assets\\songs\\Quang Hùng MasterD - Thuỷ Triều - Official Visualizer.mp3",
+      "coverUrl": "assets\\covers\\ai-generated-9244954_1280.png",
+      "trackNumber": 13,
+      "duration": 240,
+      "genre": "Classical",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "c9ef2367-0dd0-4a70-b482-2b03596da57e",
+      "artistId": "affd6fdf-6e9c-4a2f-b657-86bf4fb0d5e1",
+      "title": "After The Flood",
+      "audioUrl": "assets\\songs\\ROSÉ \u0026 Bruno Mars - APT. (Official Music Video) [ekr2nIex040].mp3",
+      "coverUrl": "assets\\covers\\apothecary-7499481_1280.jpg",
+      "trackNumber": 14,
+      "duration": 245,
+      "genre": "Electronic",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "d2aa98dc-d6eb-4174-ad68-0109dd92600a",
+      "artistId": "a08a35a3-6302-48ef-9ee2-e777976694ee",
+      "title": "Sweet Goddess Of Love And Beer",
+      "audioUrl": "assets\\songs\\SAU LỜI TỪ KHƯỚC - PHAN MẠNH QUỲNH  OFFICIAL MV (OST phim MAI, Đạo Diễn Trấn Thành).mp3",
+      "coverUrl": "assets\\covers\\background-4514414_1280.jpg",
+      "trackNumber": 15,
+      "duration": 250,
+      "genre": "Country",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "c621bf89-7a02-492b-ba40-36a4bae30f46",
+      "artistId": "c9dab684-553b-494d-acae-c2865a2f4fd0",
+      "title": "Breathe, Stretch, Shake",
+      "audioUrl": "assets\\songs\\SOOBIN - Dancing In The Dark  'BẬT NÓ LÊN' Album (Official MV).mp3",
+      "coverUrl": "assets\\covers\\background-6782458_1280.jpg",
+      "trackNumber": 16,
+      "duration": 255,
+      "genre": "Reggae",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "479f533d-c0bf-4eef-a336-c5ad770a189b",
+      "artistId": "f1e18600-6d76-4403-b4a8-0d67c4923902",
+      "title": "Another Chance",
+      "audioUrl": "assets\\songs\\SOOBIN - giá như  Official MV.mp3",
+      "coverUrl": "assets\\covers\\boat-7538132_1280.jpg",
+      "trackNumber": 17,
+      "duration": 260,
+      "genre": "Pop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "1a3d0ba6-94f1-4161-bac6-420c5a8b3508",
+      "artistId": "5348446d-0e9d-47b6-9bac-d2eca382faa0",
+      "title": "Doggin",
+      "audioUrl": "assets\\songs\\SƠN TÙNG M-TP  ĐỪNG LÀM TRÁI TIM ANH ĐAU  OFFICIAL MUSIC VIDEO.mp3",
+      "coverUrl": "assets\\covers\\bottle-caps-3762866_1280.jpg",
+      "trackNumber": 18,
+      "duration": 265,
+      "genre": "Rock",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "1be68117-1ff6-4d14-a241-c9983b8db335",
+      "artistId": "1ac349c8-19a0-438b-80ea-e640caa28e77",
+      "title": "Ya Lo Se (En Vivo)",
+      "audioUrl": "assets\\songs\\TỪNG LÀ - VŨ CÁT TƯỜNG  OFFICIAL.mp3",
+      "coverUrl": "assets\\covers\\cabin-7676642_1280.jpg",
+      "trackNumber": 19,
+      "duration": 270,
+      "genre": "Hip-Hop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "882f6142-4d53-49eb-8219-70445c4ca05d",
+      "artistId": "0176a99a-0c79-4204-a69c-2872338fe6b9",
+      "title": "Tonight",
+      "audioUrl": "assets\\songs\\Từng Ngày Yêu Em  buitruonglinh.mp3",
+      "coverUrl": "assets\\covers\\castle-7098091_1280.png",
+      "trackNumber": 20,
+      "duration": 275,
+      "genre": "Jazz",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "84446e35-3345-46a4-8fcc-ebf6e51b63d7",
+      "artistId": "146a2a38-6d86-4f6c-a762-3fb15e905a08",
+      "title": "Isn't She Lovely",
+      "audioUrl": "assets\\songs\\Vu. feat. Ha Anh Tuân - Danh Hêt Xuân Thi Đê Chơ Nhau (Official MV).mp3",
+      "coverUrl": "assets\\covers\\cd-cover-2993231_1280.jpg",
+      "trackNumber": 1,
+      "duration": 280,
+      "genre": "Classical",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "409140e2-c92d-412d-bf22-e9ad3331a9a0",
+      "artistId": "8be476da-f8de-47f8-a5b9-deac2854b7f4",
+      "title": "Stars (feat. Sara Kay)",
+      "audioUrl": "assets\\songs\\Wn - id 2022 ft. 267  OFFICIAL MUSIC VIDEO.mp3",
+      "coverUrl": "assets\\covers\\cd-cover-2993240_1280.jpg",
+      "trackNumber": 2,
+      "duration": 285,
+      "genre": "Electronic",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "3d79c723-42ff-4023-9585-95242426f9fa",
+      "artistId": "f989f176-a8dc-48f0-8557-e39fda271673",
+      "title": "Pára-Raio",
+      "audioUrl": "assets\\songs\\alone-296348.mp3",
+      "coverUrl": "assets\\covers\\cd-cover-3002647_1280.jpg",
+      "trackNumber": 3,
+      "duration": 290,
+      "genre": "Country",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "8cb089b8-0a85-4b61-981e-4dfb0cca7d5a",
+      "artistId": "affd6fdf-6e9c-4a2f-b657-86bf4fb0d5e1",
+      "title": "Caramelo",
+      "audioUrl": "assets\\songs\\amalgam-217007.mp3",
+      "coverUrl": "assets\\covers\\cd-cover-3431970_1280.jpg",
+      "trackNumber": 4,
+      "duration": 295,
+      "genre": "Reggae",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "3af3a677-3bba-4012-b7f6-f102fc6831f6",
+      "artistId": "a08a35a3-6302-48ef-9ee2-e777976694ee",
+      "title": "When The Angels Sing",
+      "audioUrl": "assets\\songs\\better-day-186374.mp3",
+      "coverUrl": "assets\\covers\\cd-cover-3675245_1280.jpg",
+      "trackNumber": 5,
+      "duration": 180,
+      "genre": "Pop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "0a51fa49-00eb-4267-b03e-652e7bcf34cb",
+      "artistId": "c9dab684-553b-494d-acae-c2865a2f4fd0",
+      "title": "Check Yes Or No",
+      "audioUrl": "assets\\songs\\binh yên  Vu. ft. Binz (Official MV).mp3",
+      "coverUrl": "assets\\covers\\cd-cover-642141_1280.jpg",
+      "trackNumber": 6,
+      "duration": 185,
+      "genre": "Rock",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "26592883-66f4-4ba1-86db-cccec973df30",
+      "artistId": "f1e18600-6d76-4403-b4a8-0d67c4923902",
+      "title": "Sunny",
+      "audioUrl": "assets\\songs\\brain-implant-cyberpunk-sci-fi-trailer-action-intro-330416.mp3",
+      "coverUrl": "assets\\covers\\christmas-background-5816370_1280.jpg",
+      "trackNumber": 7,
+      "duration": 190,
+      "genre": "Hip-Hop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "9752ea8f-c22f-4f31-8f87-9215f0f49a73",
+      "artistId": "5348446d-0e9d-47b6-9bac-d2eca382faa0",
+      "title": "Me Llamaré Tuyo (Remix Version)",
+      "audioUrl": "assets\\songs\\cascade-breathe-future-garage-412839.mp3",
+      "coverUrl": "assets\\covers\\christmas-card-7676647_1280.jpg",
+      "trackNumber": 8,
+      "duration": 195,
+      "genre": "Jazz",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "30c3b1a4-9ebc-4f9c-93b9-4efae88eb209",
+      "artistId": "1ac349c8-19a0-438b-80ea-e640caa28e77",
+      "title": "Reverie",
+      "audioUrl": "assets\\songs\\coverless-book-lofi-186307.mp3",
+      "coverUrl": "assets\\covers\\city-9193823_1280.jpg",
+      "trackNumber": 9,
+      "duration": 200,
+      "genre": "Classical",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "c2e9e5fe-fa5e-47fb-8465-8368282efa9f",
+      "artistId": "0176a99a-0c79-4204-a69c-2872338fe6b9",
+      "title": "I'm On 2.0",
+      "audioUrl": "assets\\songs\\creative-technology-showreel-241274.mp3",
+      "coverUrl": "assets\\covers\\cover-3654282_1280.jpg",
+      "trackNumber": 10,
+      "duration": 205,
+      "genre": "Electronic",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "3c15ffcd-30ff-4cd0-a541-3f86e780c5c4",
+      "artistId": "146a2a38-6d86-4f6c-a762-3fb15e905a08",
+      "title": "Illusion",
+      "audioUrl": "assets\\songs\\dont-talk-315229.mp3",
+      "coverUrl": "assets\\covers\\cover-7286324_1280.jpg",
+      "trackNumber": 11,
+      "duration": 210,
+      "genre": "Country",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "132db8ab-15b3-4ba9-a590-f48a5dfacf6c",
+      "artistId": "8be476da-f8de-47f8-a5b9-deac2854b7f4",
+      "title": "Crooked Smile",
+      "audioUrl": "assets\\songs\\eona-emotional-ambient-pop-351436.mp3",
+      "coverUrl": "assets\\covers\\cover-8792706_1280.png",
+      "trackNumber": 12,
+      "duration": 215,
+      "genre": "Reggae",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "e92010d4-6b2c-4eea-926c-981884a5227a",
+      "artistId": "f989f176-a8dc-48f0-8557-e39fda271673",
+      "title": "Manipulation of Tragedy",
+      "audioUrl": "assets\\songs\\ethereal-vistas-191254.mp3",
+      "coverUrl": "assets\\covers\\creepy-8320219_1280.jpg",
+      "trackNumber": 13,
+      "duration": 220,
+      "genre": "Pop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "d4f263ac-3435-43b4-8431-971629b83acc",
+      "artistId": "affd6fdf-6e9c-4a2f-b657-86bf4fb0d5e1",
+      "title": "Choose the One Who Loves You More",
+      "audioUrl": "assets\\songs\\experimental-cinematic-hip-hop-315904.mp3",
+      "coverUrl": "assets\\covers\\fantasy-4379818_1280.jpg",
+      "trackNumber": 14,
+      "duration": 225,
+      "genre": "Rock",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "c3be7461-624c-42b2-9e04-398e1a1e5b41",
+      "artistId": "a08a35a3-6302-48ef-9ee2-e777976694ee",
+      "title": "Wonderin' (Feat. Matthew Thiessen)",
+      "audioUrl": "assets\\songs\\flow-211881.mp3",
+      "coverUrl": "assets\\covers\\flamingo-9194541_1280.jpg",
+      "trackNumber": 15,
+      "duration": 230,
+      "genre": "Hip-Hop",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "e793803b-03bf-4776-9822-b0bb30dbfd4b",
+      "artistId": "c9dab684-553b-494d-acae-c2865a2f4fd0",
+      "title": "Vamos pra Rua",
+      "audioUrl": "assets\\songs\\for-her-chill-upbeat-summel-travel-vlog-and-ig-music-royalty-free-use-202298.mp3",
+      "coverUrl": "assets\\covers\\futuristic-7499484_1280.jpg",
+      "trackNumber": 16,
+      "duration": 235,
+      "genre": "Jazz",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "4609428b-cb78-4ad2-a952-e94bd2954c4b",
+      "artistId": "f1e18600-6d76-4403-b4a8-0d67c4923902",
+      "title": "I'm a Star",
+      "audioUrl": "assets\\songs\\for-p-453681.mp3",
+      "coverUrl": "assets\\covers\\groovebox-8832172_1280.png",
+      "trackNumber": 17,
+      "duration": 240,
+      "genre": "Classical",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "1a9d4025-1b0b-4cd2-b788-6573752b2687",
+      "artistId": "5348446d-0e9d-47b6-9bac-d2eca382faa0",
+      "title": "Street Life",
+      "audioUrl": "assets\\songs\\fresh-457883.mp3",
+      "coverUrl": "assets\\covers\\guitar-2057556_1280.jpg",
+      "trackNumber": 18,
+      "duration": 245,
+      "genre": "Electronic",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "eb7e9709-45a5-480c-92cb-8f6aa97e0b45",
+      "artistId": "1ac349c8-19a0-438b-80ea-e640caa28e77",
+      "title": "Crying",
+      "audioUrl": "assets\\songs\\future-design-344320.mp3",
+      "coverUrl": "assets\\covers\\guitar-7583677_1280.jpg",
+      "trackNumber": 19,
+      "duration": 250,
+      "genre": "Country",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    },
+    {
+      "id": "eef256e1-dec0-4d84-a66f-8aa42c1a8f35",
+      "artistId": "0176a99a-0c79-4204-a69c-2872338fe6b9",
+      "title": "Bu$hleaguer (Nassau Coliseum - Uniondale, NY 4/30/2003)",
+      "audioUrl": "assets\\songs\\gardens-stylish-chill-303261.mp3",
+      "coverUrl": "assets\\covers\\house-7551753_1280.jpg",
+      "trackNumber": 20,
+      "duration": 255,
+      "genre": "Reggae",
+      "createdAt": "2026-05-08T04:58:01Z",
+      "updatedAt": "2026-05-08T04:58:01Z"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "bf12520a-5b69-4d04-8dcb-7a0c2a66d31b",
+      "ownerId": "9299e9c8-2af1-4160-8e83-bde4d746c915",
+      "name": "Rain on Repeat",
+      "isPublic": true,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/988fe254-fab8-43d8-a1e7-28c68101ea5c.jpg",
+      "trackIds": [
+        "e92010d4-6b2c-4eea-926c-981884a5227a",
+        "9752ea8f-c22f-4f31-8f87-9215f0f49a73",
+        "479f533d-c0bf-4eef-a336-c5ad770a189b",
+        "52ea49b7-11e4-4a06-9468-5e18a840fd3b",
+        "be154f44-ebf7-46b1-896c-65bfe27752bd"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "b2e28f3c-2077-410f-983d-0899b46befcf",
+      "ownerId": "96f057c2-ec8e-4329-a5aa-a59954abec5d",
+      "name": "Compile \u0026 Chill",
+      "isPublic": false,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/2638a9b5-0539-4ea1-8df5-d915a5a7d076.jpg",
+      "trackIds": [
+        "409140e2-c92d-412d-bf22-e9ad3331a9a0",
+        "3c15ffcd-30ff-4cd0-a541-3f86e780c5c4",
+        "e793803b-03bf-4776-9822-b0bb30dbfd4b",
+        "d4f263ac-3435-43b4-8431-971629b83acc",
+        "e9e0b9e1-1a41-423c-842d-2ee31e2f6107"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "aa6fe934-b459-4597-aba2-9b984dd404b8",
+      "ownerId": "742088f8-efe5-41a4-938b-afa57d50758f",
+      "name": "No Warm-Up, Just Fire",
+      "isPublic": true,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/80ecb443-2d61-413e-af05-34e7e9848a46.jpg",
+      "trackIds": [
+        "be154f44-ebf7-46b1-896c-65bfe27752bd",
+        "4609428b-cb78-4ad2-a952-e94bd2954c4b",
+        "26592883-66f4-4ba1-86db-cccec973df30",
+        "1a3d0ba6-94f1-4161-bac6-420c5a8b3508",
+        "c5daea55-35c4-440b-bbec-a48d43dd55df"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "d16e47bf-f64d-4ede-aa07-a1eab291d9e3",
+      "ownerId": "c7214ad7-e35e-405f-a257-6f418510e91a",
+      "name": "Polaroids \u0026 Feedback",
+      "isPublic": false,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/2c9e2c6f-322c-44bf-9030-09d2822d9ab9.jpg",
+      "trackIds": [
+        "e793803b-03bf-4776-9822-b0bb30dbfd4b",
+        "84446e35-3345-46a4-8fcc-ebf6e51b63d7",
+        "eb7f6111-5a41-4de0-9b25-6eccf0e5d80f",
+        "eef256e1-dec0-4d84-a66f-8aa42c1a8f35",
+        "be154f44-ebf7-46b1-896c-65bfe27752bd"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "00da53fe-52ec-417a-9d77-db5f1ef08a3e",
+      "ownerId": "7c10b297-0102-4c06-8467-d2cf942fc35f",
+      "name": "Lift Heavy, Think Light",
+      "isPublic": true,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/a4e6de18-83dc-40c9-ae8b-9b45cc866fcf.jpg",
+      "trackIds": [
+        "409140e2-c92d-412d-bf22-e9ad3331a9a0",
+        "be154f44-ebf7-46b1-896c-65bfe27752bd",
+        "84446e35-3345-46a4-8fcc-ebf6e51b63d7",
+        "1a3d0ba6-94f1-4161-bac6-420c5a8b3508",
+        "e793803b-03bf-4776-9822-b0bb30dbfd4b"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "80e04bf4-2615-4b5d-bd63-21b16e1023f2",
+      "ownerId": "12d2c2c9-326e-4e21-ab3c-84cd5358eed4",
+      "name": "Weekend on Repeat",
+      "isPublic": false,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/28eb7bc7-1099-4325-ac2b-a00d277d6eda.jpg",
+      "trackIds": [
+        "6bd9ea07-20e3-4698-8d0a-27d498b90aed",
+        "3c15ffcd-30ff-4cd0-a541-3f86e780c5c4",
+        "a94a1acd-9249-4eb7-af10-427487af9595",
+        "26592883-66f4-4ba1-86db-cccec973df30",
+        "eef256e1-dec0-4d84-a66f-8aa42c1a8f35"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "e849836f-76cc-4326-be3d-c81ef3af0004",
+      "ownerId": "9ec06803-1742-4eee-8744-f700915e956c",
+      "name": "Dance Like the Rent’s Due",
+      "isPublic": true,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/4a19b35f-ff14-4fb0-a41c-c34210acba91.jpg",
+      "trackIds": [
+        "409140e2-c92d-412d-bf22-e9ad3331a9a0",
+        "132db8ab-15b3-4ba9-a590-f48a5dfacf6c",
+        "c5daea55-35c4-440b-bbec-a48d43dd55df",
+        "eb7f6111-5a41-4de0-9b25-6eccf0e5d80f",
+        "a94a1acd-9249-4eb7-af10-427487af9595"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    },
+    {
+      "id": "98d37af6-49a8-42f1-a3c9-fc96aaa7dd81",
+      "ownerId": "98fc91eb-e23a-402a-be37-f61c662e363b",
+      "name": "Indie Sleaze Revival",
+      "isPublic": false,
+      "description": "A great playlist with 5 tracks",
+      "coverUrl": "https://storage.example.com/covers/6ddbf666-3854-4be8-b4c1-67e623f8f537.jpg",
+      "trackIds": [
+        "eb7f6111-5a41-4de0-9b25-6eccf0e5d80f",
+        "a94a1acd-9249-4eb7-af10-427487af9595",
+        "3c15ffcd-30ff-4cd0-a541-3f86e780c5c4",
+        "d4f263ac-3435-43b4-8431-971629b83acc",
+        "e793803b-03bf-4776-9822-b0bb30dbfd4b"
+      ],
+      "createdAt": "2026-05-08T04:58:07Z",
+      "updatedAt": "2026-05-08T04:58:07Z"
+    }
+  ],
+  "playlistTracks": []
+}

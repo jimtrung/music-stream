@@ -1,0 +1,89 @@
+/* Button Component */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Sizes */
+.sm {
+  padding: 10px 20px;
+  font-size: 0.8125rem;
+}
+
+.md {
+  padding: 14px 32px;
+  font-size: 0.9375rem;
+}
+
+.lg {
+  padding: 18px 40px;
+  font-size: 1rem;
+}
+
+/* Variants */
+.primary {
+  background-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.primary:hover {
+  background-color: var(--accent-hover);
+  box-shadow: var(--shadow-glow);
+}
+
+.secondary {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.secondary:hover {
+  background-color: var(--bg-hover);
+}
+
+.ghost {
+  background-color: transparent;
+  color: var(--text-secondary);
+}
+
+.ghost:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-hover);
+}
+
+.outline {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--bg-tertiary);
+}
+
+.outline:hover {
+  border-color: var(--text-primary);
+  background-color: var(--bg-hover);
+}
+
+/* Full Width */
+.fullWidth {
+  width: 100%;
+}
+
+/* Disabled */
+.button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.button:disabled:hover {
+  box-shadow: none;
+}

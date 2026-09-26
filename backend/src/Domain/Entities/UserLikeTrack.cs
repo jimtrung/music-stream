@@ -1,0 +1,9 @@
+namespace Backend.src.Domain.Entities;
+
+public class UserLikeTrack
+{
+    public Guid UserId { get; set; }
+    public Guid TrackId { get; set; }
+    public DateTimeOffset CreatedAt { get; set; }
+}
+

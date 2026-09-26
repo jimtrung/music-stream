@@ -1,0 +1,91 @@
+/* Context Menu */
+.menu {
+  position: fixed;
+  z-index: var(--z-context-menu);
+  min-width: 200px;
+  background-color: var(--bg-elevated);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--bg-tertiary);
+  animation: menuFadeIn var(--transition-fast) ease-out;
+}
+
+@keyframes menuFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Menu Item */
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-hover);
+}
+
+.menuItem.destructive {
+  color: var(--status-error);
+}
+
+.menuItem.destructive:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.menuIcon {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.menuItem:hover .menuIcon {
+  color: inherit;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background-color: var(--bg-tertiary);
+  margin: var(--space-2) 0;
+}
+
+/* Submenu */
+.submenu {
+  position: relative;
+}
+
+.submenuTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submenuContent {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: var(--space-2);
+  min-width: 180px;
+  background-color: var(--bg-elevated);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--bg-tertiary);
+}

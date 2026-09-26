@@ -1,0 +1,12 @@
+@Backend_HostAddress = http://localhost:8080
+
+### Sign In
+POST {{Backend_HostAddress}}/auth/signin
+Accept: application/json
+
+{
+  "username": "user001",
+  "password": "001"
+}
+
+###

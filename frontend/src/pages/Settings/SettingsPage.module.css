@@ -1,0 +1,206 @@
+/* Settings Page */
+.page {
+  max-width: 700px;
+  padding-bottom: var(--space-10);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-8);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Sections */
+.section {
+  margin-bottom: var(--space-7);
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-4);
+}
+
+.sectionTitle.danger {
+  color: var(--status-error);
+}
+
+/* Card */
+.card {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.dangerCard {
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+/* Setting Row */
+.settingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--bg-tertiary);
+}
+
+.settingRow:last-child {
+  border-bottom: none;
+}
+
+.settingInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.settingLabel {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.settingDesc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.settingValue {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.editBtn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.editBtn:hover {
+  background-color: var(--accent-subtle);
+}
+
+.readOnly {
+  font-size: 0.8125rem;
+  color: var(--status-active);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+/* Theme Options */
+.themeOptions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.themeBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border: 2px solid transparent;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.themeBtn:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.themeBtn.active {
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+  background-color: var(--accent-subtle);
+}
+
+/* Toggle Switch */
+.toggle {
+  width: 48px;
+  height: 28px;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+  position: relative;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.toggle.on {
+  background-color: var(--accent-primary);
+}
+
+.toggleThumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  background-color: var(--text-primary);
+  border-radius: var(--radius-full);
+  transition: transform var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.toggle.on .toggleThumb {
+  transform: translateX(20px);
+}
+
+/* Delete Button */
+.deleteBtn {
+  color: var(--status-error) !important;
+  border-color: var(--status-error) !important;
+}
+
+.deleteBtn:hover {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+}
+
+/* Warning Content */
+.warningContent {
+  text-align: center;
+  padding: var(--space-4);
+  color: var(--text-muted);
+}
+
+.warningContent svg {
+  color: var(--status-warning);
+  margin-bottom: var(--space-4);
+}
+
+.warningContent p {
+  margin-bottom: var(--space-3);
+}
+
+.warningNote {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .settingRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-3);
+  }
+}

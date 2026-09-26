@@ -1,0 +1,82 @@
+[
+  {
+    "id": "9baf2348-b260-4659-a578-a6f580259316",
+    "userId": "22083529-8194-413d-bdc1-ec5b005bfa06",
+    "name": " Stoney LaRue ",
+    "isVerified": true,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "66ea43ab-d815-42a4-8057-facd647e4bbf",
+    "userId": "4e633a32-4e40-48ef-b8f1-4c0a46c920b8",
+    "name": " Lizi Kay ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "46ca3b0b-7ba5-4386-b369-c09dbaea1470",
+    "userId": "91518bdb-bb2c-4f47-ac15-21aabbd06dd4",
+    "name": " Sisqó ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "4218cf20-6965-4e1b-9024-6419d4e97e7b",
+    "userId": "61a8a723-64c2-48ae-a59b-c480b3bcc54b",
+    "name": " Juicy J ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "2b5f0e73-ef95-4231-bc84-de5102c2198a",
+    "userId": "0761b468-4cca-42c9-8f12-d2d5f11a816e",
+    "name": " Mickey Guyton ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "422e4207-bc7e-433c-80d0-88c32b7bbb79",
+    "userId": "e02f2232-6566-46c5-94b9-176e1078b48f",
+    "name": " Elton Britt ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "5260fa58-7f1e-44e0-9de7-38de19cfa44b",
+    "userId": "d11d7e46-e5c7-4741-8481-577c7af256d9",
+    "name": " Dick Morgan Trio ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "d988f8cf-5697-400e-9c73-f24fc257a698",
+    "userId": "844539e5-0025-47b2-b2c6-3dc7fc4a3fb5",
+    "name": " Amber Rose ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "77f2f3a7-68db-4e80-b9c1-1ba2dd2c11ff",
+    "userId": "0c396f6f-bc29-485d-9895-f69dd8b509c8",
+    "name": " The Notorious B.I.G. ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  },
+  {
+    "id": "e8ad5d95-96df-4610-8088-8d155e08124c",
+    "userId": "c41aedb3-25a4-49ac-b307-eec02d9b7cfb",
+    "name": " Metro Station ",
+    "isVerified": false,
+    "createdAt": "2026-04-19T07:10:35Z",
+    "updatedAt": "2026-04-19T07:10:35Z"
+  }
+]

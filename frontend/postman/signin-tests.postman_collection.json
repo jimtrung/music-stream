@@ -1,0 +1,443 @@
+{
+	"info": {
+		"name": "Sign In API Tests",
+		"description": "Kiểm thử API đăng nhập - dữ liệu từ dataset_q.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{ "key": "baseUrl", "value": "http://127.0.0.1:5255" }
+	],
+	"item": [
+		{
+			"name": "TC-01: Đăng nhập thành công",
+			"item": [
+				{
+					"name": "✅ aretha / NF (premium)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"aretha\",\"password\":\"NF\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { const d = pm.response.json(); pm.expect(d).to.have.property('access_token'); pm.expect(d.access_token).to.be.a('string').and.not.empty; });"
+					]}}]
+				},
+				{
+					"name": "✅ fenton / joh316",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"fenton\",\"password\":\"joh316\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { const d = pm.response.json(); pm.expect(d).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ afif / jboss4",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"afif\",\"password\":\"jboss4\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ luuk / AMI_SW (premium)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"luuk\",\"password\":\"AMI_SW\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ elmo / CISSUS (premium)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"elmo\",\"password\":\"CISSUS\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ johanna / leviton (premium)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"johanna\",\"password\":\"leviton\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ bambie / 123123",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"bambie\",\"password\":\"123123\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ moon / 456",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"moon\",\"password\":\"456\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ meriann / 1 (1 ký tự)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"meriann\",\"password\":\"1\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ walley / HPOFFICE DATA (có space)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"walley\",\"password\":\"HPOFFICE DATA\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ nettie / ?award (ký tự ?)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"nettie\",\"password\":\"?award\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ zain / changeonfirstlogin (dài)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"zain\",\"password\":\"changeonfirstlogin\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-02: Sai mật khẩu",
+			"item": [
+				{
+					"name": "❌ aretha / WRONG_PASSWORD → 401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"aretha\",\"password\":\"WRONG_PASSWORD\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 401', () => pm.response.to.have.status(401));"
+					]}}]
+				},
+				{
+					"name": "❌ fenton / (empty) → 400",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"fenton\",\"password\":\"\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 400', () => pm.response.to.have.status(400));"
+					]}}]
+				},
+				{
+					"name": "❌ fenton dùng password afif (jboss4) → 401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"fenton\",\"password\":\"jboss4\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 401', () => pm.response.to.have.status(401));"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-03: User không tồn tại",
+			"item": [
+				{
+					"name": "❌ nonexistent_user_xyz → 404",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"nonexistent_user_xyz\",\"password\":\"anypassword\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 404', () => pm.response.to.have.status(404));"
+					]}}]
+				},
+				{
+					"name": "❌ username rỗng → 400",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"\",\"password\":\"NF\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 400', () => pm.response.to.have.status(400));"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-04: Mật khẩu ký tự đặc biệt",
+			"item": [
+				{
+					"name": "✅ nettie / ?award (ký tự ?)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"nettie\",\"password\":\"?award\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ walley / HPOFFICE DATA (space)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"walley\",\"password\":\"HPOFFICE DATA\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ bambie / 123123 (chỉ số)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"bambie\",\"password\":\"123123\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ meriann / 1 (1 ký tự)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"meriann\",\"password\":\"1\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				},
+				{
+					"name": "✅ zain / changeonfirstlogin (dài)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"zain\",\"password\":\"changeonfirstlogin\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('Has access_token', () => { pm.expect(pm.response.json()).to.have.property('access_token'); });"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-05: Case sensitivity",
+			"item": [
+				{
+					"name": "❌ ARETHA (uppercase) / NF → 404",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"ARETHA\",\"password\":\"NF\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 404 - case sensitive username', () => pm.response.to.have.status(404));"
+					]}}]
+				},
+				{
+					"name": "❌ aretha / nf (lowercase pass) → 401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"aretha\",\"password\":\"nf\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 401 - case sensitive password', () => pm.response.to.have.status(401));"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-06: Payload bất thường",
+			"item": [
+				{
+					"name": "❌ SQL injection → 404",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"' OR 1=1 --\",\"password\":\"anything\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 404 - SQL injection rejected', () => pm.response.to.have.status(404));"
+					]}}]
+				},
+				{
+					"name": "❌ XSS → 404",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"<script>alert('xss')</script>\",\"password\":\"test\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 404 - XSS rejected', () => pm.response.to.have.status(404));"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-07: Thiếu trường",
+			"item": [
+				{
+					"name": "❌ thiếu password → 400/401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"aretha\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 400 or 401', () => { pm.expect([400, 401]).to.include(pm.response.code); });"
+					]}}]
+				},
+				{
+					"name": "❌ thiếu username → 400/401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"password\":\"NF\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 400 or 401', () => { pm.expect([400, 401]).to.include(pm.response.code); });"
+					]}}]
+				},
+				{
+					"name": "❌ body rỗng → 400/401",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 400 or 401', () => { pm.expect([400, 401]).to.include(pm.response.code); });"
+					]}}]
+				}
+			]
+		},
+		{
+			"name": "TC-08: Response format",
+			"item": [
+				{
+					"name": "✅ access_token là string",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"aretha\",\"password\":\"NF\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('access_token is string', () => { const d = pm.response.json(); pm.expect(d.access_token).to.be.a('string'); pm.expect(d.access_token.length).to.be.above(10); });"
+					]}}]
+				},
+				{
+					"name": "✅ JWT format (3 phần)",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/auth/signin",
+						"header": [{ "key": "Content-Type", "value": "application/json" }],
+						"body": { "mode": "raw", "raw": "{\"username\":\"fenton\",\"password\":\"joh316\"}" }
+					},
+					"event": [{ "listen": "test", "script": { "type": "text/javascript", "exec": [
+						"pm.test('Status 200', () => pm.response.to.have.status(200));",
+						"pm.test('JWT has 3 parts', () => { const token = pm.response.json().access_token; const parts = token.split('.'); pm.expect(parts.length).to.eql(3); });"
+					]}}]
+				}
+			]
+		}
+	]
+}

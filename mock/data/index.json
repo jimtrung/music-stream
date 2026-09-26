@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-25T14:26:15.1738265+07:00",
+  "datasets": {
+    "50": {
+      "name": "50",
+      "createdAt": "2026-03-16T10:10:25.147552+07:00",
+      "lastUpdated": "2026-03-16T10:10:25.147552+07:00",
+      "path": "data\\50",
+      "userCount": 0,
+      "artistCount": 0,
+      "trackCount": 0,
+      "playlistCount": 0,
+      "profileCount": 0,
+      "status": "in-progress"
+    },
+    "foo": {
+      "name": "foo",
+      "createdAt": "2026-04-19T14:10:23.6008046+07:00",
+      "lastUpdated": "2026-04-19T14:10:47.4260798+07:00",
+      "path": "data\\foo",
+      "userCount": 50,
+      "artistCount": 10,
+      "trackCount": 40,
+      "playlistCount": 5,
+      "profileCount": 50,
+      "status": "complete"
+    },
+    "khanh": {
+      "name": "khanh",
+      "createdAt": "2026-05-25T14:23:35.1965656+07:00",
+      "lastUpdated": "2026-05-25T14:26:15.1738265+07:00",
+      "path": "data\\khanh",
+      "userCount": 80,
+      "artistCount": 50,
+      "trackCount": 60,
+      "playlistCount": 20,
+      "profileCount": 80,
+      "status": "complete"
+    },
+    "mock": {
+      "name": "mock",
+      "createdAt": "2026-03-18T09:23:00.1776516+07:00",
+      "lastUpdated": "2026-03-18T09:23:29.2388571+07:00",
+      "path": "data\\mock",
+      "userCount": 20,
+      "artistCount": 5,
+      "trackCount": 10,
+      "playlistCount": 3,
+      "profileCount": 20,
+      "status": "complete"
+    },
+    "mock1": {
+      "name": "mock1",
+      "createdAt": "2026-03-17T09:00:52.2985224+07:00",
+      "lastUpdated": "2026-03-17T09:01:25.3013285+07:00",
+      "path": "data\\mock1",
+      "userCount": 50,
+      "artistCount": 10,
+      "trackCount": 20,
+      "playlistCount": 3,
+      "profileCount": 50,
+      "status": "in-progress"
+    },
+    "mock2": {
+      "name": "mock2",
+      "createdAt": "2026-03-17T09:11:28.2087618+07:00",
+      "lastUpdated": "2026-03-17T09:54:33.6220383+07:00",
+      "path": "data\\mock2",
+      "userCount": 100,
+      "artistCount": 10,
+      "trackCount": 30,
+      "playlistCount": 3,
+      "profileCount": 200,
+      "status": "complete"
+    },
+    "mock3": {
+      "name": "mock3",
+      "createdAt": "2026-03-17T09:54:46.3630146+07:00",
+      "lastUpdated": "2026-03-17T09:55:11.3922724+07:00",
+      "path": "data\\mock3",
+      "userCount": 10,
+      "artistCount": 5,
+      "trackCount": 4,
+      "playlistCount": 2,
+      "profileCount": 10,
+      "status": "in-progress"
+    },
+    "mock4": {
+      "name": "mock4",
+      "createdAt": "2026-03-17T10:51:32.4622412+07:00",
+      "lastUpdated": "2026-03-17T10:52:07.1956228+07:00",
+      "path": "data\\mock4",
+      "userCount": 10,
+      "artistCount": 2,
+      "trackCount": 5,
+      "playlistCount": 2,
+      "profileCount": 10,
+      "status": "in-progress"
+    },
+    "q": {
+      "name": "q",
+      "createdAt": "2026-04-27T10:04:23.936133+07:00",
+      "lastUpdated": "2026-04-27T10:05:16.3600893+07:00",
+      "path": "data\\q",
+      "userCount": 100,
+      "artistCount": 15,
+      "trackCount": 60,
+      "playlistCount": 15,
+      "profileCount": 100,
+      "status": "complete"
+    },
+    "t1": {
+      "name": "t1",
+      "createdAt": "2026-03-15T08:59:40.9930096+07:00",
+      "lastUpdated": "2026-03-15T09:00:15.3590592+07:00",
+      "path": "data\\t1",
+      "userCount": 100,
+      "artistCount": 0,
+      "trackCount": 0,
+      "playlistCount": 0,
+      "profileCount": 0,
+      "status": "in-progress"
+    },
+    "test": {
+      "name": "test",
+      "createdAt": "2026-03-16T10:14:06.8211364+07:00",
+      "lastUpdated": "2026-03-16T10:43:53.9200927+07:00",
+      "path": "data\\test",
+      "userCount": 50,
+      "artistCount": 10,
+      "trackCount": 30,
+      "playlistCount": 3,
+      "profileCount": 50,
+      "status": "complete"
+    },
+    "users": {
+      "name": "users",
+      "createdAt": "2026-03-15T08:18:52.7048859+07:00",
+      "lastUpdated": "2026-03-15T08:58:56.6469499+07:00",
+      "path": "data\\users",
+      "userCount": 100,
+      "artistCount": 0,
+      "trackCount": 0,
+      "playlistCount": 0,
+      "profileCount": 100,
+      "status": "complete"
+    },
+    "users;": {
+      "name": "users;",
+      "createdAt": "2026-03-15T08:37:44.5799861+07:00",
+      "lastUpdated": "2026-03-15T08:38:13.2092328+07:00",
+      "path": "data\\users;",
+      "userCount": 50,
+      "artistCount": 0,
+      "trackCount": 0,
+      "playlistCount": 0,
+      "profileCount": 0,
+      "status": "in-progress"
+    }
+  }
+}

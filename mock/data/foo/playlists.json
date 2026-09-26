@@ -1,0 +1,92 @@
+[
+  {
+    "id": "6bbc35b2-e4ed-454d-8cf4-0e7271fd1695",
+    "ownerId": "22083529-8194-413d-bdc1-ec5b005bfa06",
+    "name": "Compile \u0026 Chill",
+    "isPublic": true,
+    "description": "A great playlist with 6 tracks",
+    "coverUrl": "https://storage.example.com/covers/e10931a7-5ef9-46d7-82c8-e2e0716329d4.jpg",
+    "trackIds": [
+      "e2937e01-9289-4c0b-bc3e-5b3805a40789",
+      "c14cb403-080b-48b6-ab87-99621f68d09f",
+      "4931e461-07b6-413e-a070-8be7513cf8d1",
+      "a66e1a8c-b4d8-4d95-bf10-532960cfb5ec",
+      "280d66a7-1aaf-4ce8-aaaf-71b889042889",
+      "ccadc2c6-2c4b-4e90-9b30-fd5f16b8d061"
+    ],
+    "createdAt": "2026-04-19T07:10:44Z",
+    "updatedAt": "2026-04-19T07:10:44Z"
+  },
+  {
+    "id": "1a2d07ed-960b-43cb-a146-54ea53989f96",
+    "ownerId": "4e633a32-4e40-48ef-b8f1-4c0a46c920b8",
+    "name": "No Warm-Up, Just Fire",
+    "isPublic": false,
+    "description": "A great playlist with 6 tracks",
+    "coverUrl": "https://storage.example.com/covers/84087db3-fd2e-4d7e-b4d9-d8ba4fd6ee34.jpg",
+    "trackIds": [
+      "76a56e19-26c1-4543-8087-85a2af55cbcd",
+      "a66e1a8c-b4d8-4d95-bf10-532960cfb5ec",
+      "c50767cc-3068-4cc7-aaf6-e4c0986c9e29",
+      "aa40140d-8ac3-4ea6-87f4-20beb9942277",
+      "ccadc2c6-2c4b-4e90-9b30-fd5f16b8d061",
+      "0c10971f-b2a9-4119-b078-cacbccdaee23"
+    ],
+    "createdAt": "2026-04-19T07:10:44Z",
+    "updatedAt": "2026-04-19T07:10:44Z"
+  },
+  {
+    "id": "6b00819f-768c-49d0-84e3-cb0b2d4236d5",
+    "ownerId": "91518bdb-bb2c-4f47-ac15-21aabbd06dd4",
+    "name": "Bass Over Bad Decisions",
+    "isPublic": true,
+    "description": "A great playlist with 6 tracks",
+    "coverUrl": "https://storage.example.com/covers/a93aafe5-80bc-4b23-9e3a-1dc77a571934.jpg",
+    "trackIds": [
+      "b74ced0f-8aca-482e-b56f-a1b5b505845e",
+      "c36a0c24-568e-47fb-8290-5c02ce6bda3e",
+      "e03cb416-96f5-4a9c-bfbd-de7851942b13",
+      "eb1fbd1d-1dcd-4a41-b3f6-e4b22ff81aca",
+      "0306cf1e-1af1-4c65-a1b0-014c9ae25242",
+      "4931e461-07b6-413e-a070-8be7513cf8d1"
+    ],
+    "createdAt": "2026-04-19T07:10:44Z",
+    "updatedAt": "2026-04-19T07:10:44Z"
+  },
+  {
+    "id": "86660d5c-9012-4916-85c5-a6316cc5e38f",
+    "ownerId": "61a8a723-64c2-48ae-a59b-c480b3bcc54b",
+    "name": "Weekend on Repeat",
+    "isPublic": false,
+    "description": "A great playlist with 6 tracks",
+    "coverUrl": "https://storage.example.com/covers/7b6a9a19-95b3-4975-bf7f-fd4192a6fd1c.jpg",
+    "trackIds": [
+      "ed14fbb9-7777-4f7c-b4cc-9383c336bf3e",
+      "18e3a072-f57e-407d-a6ac-1d8d23837f96",
+      "c14cb403-080b-48b6-ab87-99621f68d09f",
+      "e2937e01-9289-4c0b-bc3e-5b3805a40789",
+      "401eb023-37cc-4f5f-86bb-c3402708f18f",
+      "aa40140d-8ac3-4ea6-87f4-20beb9942277"
+    ],
+    "createdAt": "2026-04-19T07:10:44Z",
+    "updatedAt": "2026-04-19T07:10:44Z"
+  },
+  {
+    "id": "75ccb2d9-ea4e-4a6a-9584-3485c3648693",
+    "ownerId": "0761b468-4cca-42c9-8f12-d2d5f11a816e",
+    "name": "Deep Focus, Shallow Coffee",
+    "isPublic": true,
+    "description": "A great playlist with 6 tracks",
+    "coverUrl": "https://storage.example.com/covers/73c56144-2266-4efa-8d33-71d953333f88.jpg",
+    "trackIds": [
+      "eb1fbd1d-1dcd-4a41-b3f6-e4b22ff81aca",
+      "162025af-8b96-40c3-b9d9-9288e5692edb",
+      "280d66a7-1aaf-4ce8-aaaf-71b889042889",
+      "e3f7cee4-ab96-45be-aaca-7e4f084b4c88",
+      "56106067-63d5-4129-ad93-76120159c4cc",
+      "4931e461-07b6-413e-a070-8be7513cf8d1"
+    ],
+    "createdAt": "2026-04-19T07:10:44Z",
+    "updatedAt": "2026-04-19T07:10:44Z"
+  }
+]

@@ -1,0 +1,210 @@
+/* Library Page */
+.page {
+  padding-bottom: var(--space-10);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.actionBtn {
+  padding: var(--space-2);
+  color: var(--text-muted);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+}
+
+.actionBtn:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-hover);
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+}
+
+.tab {
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: all var(--transition-fast);
+}
+
+.tab:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.tab.active {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+/* Playlist Grid */
+.playlistGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--space-6);
+}
+
+/* Liked Songs Card */
+.likedCard {
+  background-color: var(--accent-muted);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 220px;
+  transition: all var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.likedCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--accent-muted) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.likedCard:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.likedCardIcon {
+  margin-bottom: var(--space-3);
+  color: var(--accent-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.likedCardTitle {
+  font-weight: 700;
+  color: var(--text-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.likedCardMeta {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin-top: var(--space-1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Liked Songs Banner */
+.likedBanner {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.likedBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: radial-gradient(circle at 0% 100%, var(--accent-subtle), transparent 70%);
+  pointer-events: none;
+}
+
+.likedIcon {
+  color: var(--accent-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.likedInfo {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.likedLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-2);
+  color: var(--text-muted);
+}
+
+.likedTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+  color: var(--text-primary);
+}
+
+.likedMeta {
+  color: var(--text-secondary);
+}
+
+/* Track List */
+.trackList {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2);
+}
+
+.trackListHeader {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  color: var(--text-muted);
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid var(--bg-tertiary);
+  margin-bottom: var(--space-2);
+  align-items: center;
+}
+
+.empty {
+  text-align: center;
+  padding: var(--space-10);
+  color: var(--text-muted);
+}
+
+.emptyTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}

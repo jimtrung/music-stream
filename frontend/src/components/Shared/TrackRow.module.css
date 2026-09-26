@@ -1,0 +1,153 @@
+/* Track Row */
+.trackRow {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: var(--space-4);
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-fast);
+  cursor: pointer;
+}
+
+.trackRow:hover {
+  background-color: var(--bg-hover);
+}
+
+.trackRow.playing {
+  background-color: var(--accent-subtle);
+}
+
+.trackRow.playing .title {
+  color: var(--accent-primary);
+}
+
+/* Index Column */
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.indexNumber {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.playIcon {
+  display: none;
+  color: var(--text-primary);
+}
+
+.trackRow:hover .indexNumber {
+  display: none;
+}
+
+.trackRow:hover .playIcon {
+  display: flex;
+}
+
+.trackRow.playing .indexNumber {
+  display: none;
+}
+
+.trackRow.playing .playIcon {
+  display: flex;
+  color: var(--accent-primary);
+}
+
+/* Info Column */
+.info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.cover {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: var(--bg-tertiary);
+  color: var(--text-muted);
+}
+
+.details {
+  min-width: 0;
+  flex: 1;
+}
+
+.title {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: var(--space-1);
+}
+
+/* Actions Column */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.likeBtn {
+  color: var(--text-muted);
+  padding: var(--space-1);
+  opacity: 0;
+  transition: all var(--transition-fast);
+}
+
+.trackRow:hover .likeBtn {
+  opacity: 1;
+}
+
+.likeBtn:hover {
+  color: var(--text-primary);
+}
+
+.likeBtn.liked {
+  color: var(--accent-primary);
+  opacity: 1;
+}
+
+.duration {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 40px;
+  text-align: right;
+}
+
+.moreBtn {
+  color: var(--text-muted);
+  padding: var(--space-1);
+  opacity: 0;
+  transition: all var(--transition-fast);
+}
+
+.trackRow:hover .moreBtn {
+  opacity: 1;
+}
+
+.moreBtn:hover {
+  color: var(--text-primary);
+}

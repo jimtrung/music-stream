@@ -1,0 +1,72 @@
+## Build and Release Folders
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.sln.iml
+*.vscode/
+*.vs/
+*.idea/
+
+## Visual Studio
+.vs/
+.vscode/
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+
+## Dependency Folders
+node_modules/
+wwwroot/lib/
+packages/
+bower_components/
+
+## Publish output
+*.Publish.xml
+*.pubxml
+*.publishsettings
+
+## Configuration / Secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+secrets.json
+*.env
+.env.*
+flyway.conf
+
+## Temporary Files
+*.tmp
+*.temp
+*.bak
+*.log
+*.ncb
+*.cache
+*.swp
+*.sln.metaproj
+*.userprefs
+
+## OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+## Other
+_ReSharper*/
+*.resharper
+*.tlog
+project.lock.json
