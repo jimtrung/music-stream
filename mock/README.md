@@ -1,5 +1,6 @@
 # Music Streaming Mock Data Generator - Improved
 
+*Read this in [Vietnamese](README.vi.md)*
 This is the improved mock data generator for the Music Streaming platform, aligned with the API documentation and best practices.
 
 ## What's New (Improvements)
